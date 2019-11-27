@@ -16,6 +16,7 @@
 		12813E20238C2D8E0073BB49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12813E1E238C2D8E0073BB49 /* LaunchScreen.storyboard */; };
 		12813E28238C2E440073BB49 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12813E27238C2E440073BB49 /* FeedViewController.swift */; };
 		12813E2A238C2E510073BB49 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12813E29238C2E510073BB49 /* ProfileViewController.swift */; };
+		12943E2E238E854C009854F6 /* Extension+TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12943E2D238E854C009854F6 /* Extension+TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		12813E21238C2D8E0073BB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12813E27238C2E440073BB49 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		12813E29238C2E510073BB49 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		12943E2D238E854C009854F6 /* Extension+TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+TabBarController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +78,21 @@
 			isa = PBXGroup;
 			children = (
 				127226E0238C4F6800A58C70 /* Controller */,
-				12813E15238C2D8D0073BB49 /* AppDelegate.swift */,
+				12943E2F238E858E009854F6 /* Extensions */,
 				12813E1C238C2D8E0073BB49 /* Assets.xcassets */,
 				12813E1E238C2D8E0073BB49 /* LaunchScreen.storyboard */,
 				12813E21238C2D8E0073BB49 /* Info.plist */,
+				12813E15238C2D8D0073BB49 /* AppDelegate.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		12943E2F238E858E009854F6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12943E2D238E854C009854F6 /* Extension+TabBarController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				12813E2A238C2E510073BB49 /* ProfileViewController.swift in Sources */,
 				12813E16238C2D8D0073BB49 /* AppDelegate.swift in Sources */,
 				127226DD238C434B00A58C70 /* LikesViewController.swift in Sources */,
+				12943E2E238E854C009854F6 /* Extension+TabBarController.swift in Sources */,
 				127226DF238C465800A58C70 /* AddPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

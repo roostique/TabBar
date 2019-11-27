@@ -15,7 +15,7 @@ class MainViewController: UITabBarController {
 
         tabBar.barTintColor = .cyan
         setupTabBar()
-        
+    
     }
 
     func setupTabBar(){
@@ -33,19 +33,6 @@ class MainViewController: UITabBarController {
         for item in items {
             item.imageInsets = UIEdgeInsets(top: 4,left: 0,bottom: -4,right: 0)
         }
-        
     }
-}
-
-extension UITabBarController {
     
-    func createNavController(vc: UIViewController, selected: UIImage, unselected: UIImage) -> UINavigationController {
-        
-        let viewController = vc
-        let navController = UINavigationController(rootViewController: viewController)
-        navController.tabBarItem.image = unselected
-        navController.tabBarItem.selectedImage = selected
-        return navController
-    }
 }
-
